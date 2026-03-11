@@ -8,4 +8,6 @@ Open `index.html` in a browser. No build step required.
 
 ## Deployment
 
-Hosted on GitHub Pages from the `main` branch.
+Hosted on GitHub Pages from the `master` branch.
+
+**Live site:** https://bascoe10.github.io/sesay-healthcare/
