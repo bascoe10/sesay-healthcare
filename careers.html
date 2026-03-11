@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Join the Sesay Healthcare Service team. Explore career opportunities in home healthcare across Southeastern Pennsylvania.">
+  <title>Careers - Sesay Healthcare Service</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="container">
+      <a href="index.html" class="nav__logo">SESAY HEALTHCARE SERVICE</a>
+      <ul class="nav__links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="service-areas.html">Service Areas</a></li>
+        <li><a href="testimonials.html">Testimonials</a></li>
+        <li><a href="careers.html">Careers</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button class="nav__hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div class="nav__mobile">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="service-areas.html">Service Areas</a></li>
+        <li><a href="testimonials.html">Testimonials</a></li>
+        <li><a href="careers.html">Careers</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <section class="hero">
+    <div class="container">
+      <h1 class="hero__title">Join Our Team</h1>
+      <p class="hero__subtitle">Build a rewarding career in home healthcare</p>
+    </div>
+  </section>
+
+  <!-- Why Work With Us -->
+  <section class="section section--light">
+    <div class="container">
+      <h2 class="section__title">Why Work With Us</h2>
+      <p class="section__subtitle">We believe in taking care of the people who take care of others</p>
+      <div class="cards">
+        <div class="card">
+          <div class="card__icon">&#128197;</div>
+          <h3 class="card__title">Flexible Scheduling</h3>
+          <p class="card__text">We understand the importance of work-life balance. Choose shifts that fit your lifestyle and personal commitments.</p>
+        </div>
+        <div class="card">
+          <div class="card__icon">&#128176;</div>
+          <h3 class="card__title">Competitive Pay</h3>
+          <p class="card__text">We offer competitive compensation packages that recognize and reward the vital work our caregivers do every day.</p>
+        </div>
+        <div class="card">
+          <div class="card__icon">&#129309;</div>
+          <h3 class="card__title">Supportive Team</h3>
+          <p class="card__text">Join a team that values collaboration, open communication, and mutual support. You're never alone in the field.</p>
+        </div>
+        <div class="card">
+          <div class="card__icon">&#128200;</div>
+          <h3 class="card__title">Growth Opportunities</h3>
+          <p class="card__text">We invest in your professional development with ongoing training, certifications, and advancement opportunities.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Open Positions -->
+  <section class="section section--dark">
+    <div class="container">
+      <h2 class="section__title">Open Positions</h2>
+      <div class="card">
+        <h3 class="card__title">Home Health Aide</h3>
+        <p class="card__text">We are seeking compassionate and dedicated Home Health Aides to join our growing team. In this role, you will provide essential personal care, daily living support, and companionship to clients in their homes across South East Pennsylvania. Previous caregiving experience is preferred but not required&mdash;we provide thorough training to ensure you are prepared to deliver the highest quality of care. If you have a passion for helping others and want to make a meaningful difference in people's lives, we want to hear from you.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Application Form -->
+  <section class="section section--light">
+    <div class="container">
+      <h2 class="section__title">Apply Now</h2>
+      <p class="section__subtitle">Fill out the form below and our team will be in touch</p>
+      <form class="form" data-validate action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <div class="form__group">
+          <label class="form__label" for="fullName">Full Name</label>
+          <input class="form__input" type="text" id="fullName" name="fullName" required>
+          <span class="form__error">This field is required</span>
+        </div>
+        <div class="form__group">
+          <label class="form__label" for="email">Email</label>
+          <input class="form__input" type="email" id="email" name="email" required>
+          <span class="form__error">Please enter a valid email</span>
+        </div>
+        <div class="form__group">
+          <label class="form__label" for="phone">Phone</label>
+          <input class="form__input" type="tel" id="phone" name="phone" required>
+          <span class="form__error">This field is required</span>
+        </div>
+        <div class="form__group">
+          <label class="form__label" for="experience">Experience Summary</label>
+          <textarea class="form__textarea" id="experience" name="experience" rows="5"></textarea>
+          <span class="form__error">This field is required</span>
+        </div>
+        <button type="submit" class="btn btn--blue">Submit Application</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <h3 class="footer__title">Sesay Healthcare Service</h3>
+          <p>Providing compassionate, professional home healthcare services to families throughout Southeastern Pennsylvania.</p>
+        </div>
+        <div>
+          <h3 class="footer__title">Quick Links</h3>
+          <ul class="footer__links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="service-areas.html">Service Areas</a></li>
+            <li><a href="testimonials.html">Testimonials</a></li>
+            <li><a href="careers.html">Careers</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="footer__title">Contact Info</h3>
+          <p>Southeastern Pennsylvania</p>
+          <p>Phone: <a href="tel:+1XXXXXXXXXX">(XXX) XXX-XXXX</a></p>
+          <p>Email: <a href="mailto:info@sesayhealthcare.com">info@sesayhealthcare.com</a></p>
+          <div class="footer__social">
+            <a href="#" aria-label="Facebook">FB</a>
+            <a href="#" aria-label="Instagram">IG</a>
+            <a href="#" aria-label="LinkedIn">LI</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 Sesay Healthcare Service. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Mobile Sticky Call Button -->
+  <a href="tel:+1XXXXXXXXXX" class="mobile-cta">Call Now</a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
