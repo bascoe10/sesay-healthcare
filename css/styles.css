@@ -723,3 +723,41 @@ ul {
     padding-bottom: 50px;
   }
 }
+
+/* FAQ */
+.faq { display: flex; flex-direction: column; gap: 1.5rem; max-width: 800px; margin: 0 auto; }
+.faq__item { background: var(--color-white); border-left: 4px solid var(--color-accent); padding: 1.5rem; border-radius: 0 8px 8px 0; }
+.faq__question { font-size: 1.1rem; font-weight: 600; margin-bottom: 0.75rem; color: var(--color-primary); }
+.faq__answer { color: var(--color-muted); line-height: 1.7; }
+.faq__answer a { color: var(--color-accent); }
+
+/* Service cards (homepage How We Help) */
+.service-card { background: var(--color-white); border: 1px solid var(--color-border); border-radius: 8px; padding: 28px 24px; transition: box-shadow 0.2s; }
+.service-card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.08); }
+.service-card__icon { font-size: 2rem; margin-bottom: 10px; }
+.service-card__title { font-size: 1.15rem; font-weight: 700; color: var(--color-primary); margin-bottom: 10px; }
+.service-card ul { list-style: none; display: flex; flex-direction: column; gap: 5px; }
+.service-card ul li { font-size: 0.9rem; color: var(--color-muted); padding-left: 16px; position: relative; }
+.service-card ul li::before { content: "•"; position: absolute; left: 0; color: var(--color-accent); font-weight: 700; }
+
+/* Service blocks (services page) */
+.service-block { max-width: 800px; margin: 0 auto; }
+.service-block__title { font-size: 1.4rem; font-weight: 700; color: var(--color-primary); margin-bottom: 6px; }
+.service-block__subtitle { font-style: italic; color: var(--color-muted); margin-bottom: 14px; }
+.service-block p { color: var(--color-muted); line-height: 1.7; margin-bottom: 12px; }
+.service-block ul { list-style: none; display: grid; grid-template-columns: repeat(2, 1fr); gap: 6px 24px; }
+.service-block ul li { font-size: 0.95rem; color: var(--color-muted); padding-left: 18px; position: relative; }
+.service-block ul li::before { content: "✓"; position: absolute; left: 0; color: var(--color-accent); font-weight: 700; }
+@media (max-width: 600px) { .service-block ul { grid-template-columns: 1fr; } }
+
+/* Check list */
+.check-list { list-style: none; max-width: 600px; margin: 0 auto; display: flex; flex-direction: column; gap: 10px; }
+.check-list li { display: flex; align-items: flex-start; gap: 10px; font-size: 1rem; }
+.check-list li::before { content: "✓"; color: var(--color-accent); font-weight: 700; flex-shrink: 0; margin-top: 2px; }
+.section--dark .check-list li { color: rgba(255,255,255,0.9); }
+
+/* Two-column bullet list (careers) */
+.two-col-list { list-style: none; display: grid; grid-template-columns: 1fr; gap: 8px; max-width: 640px; margin: 0 auto; }
+@media (min-width: 640px) { .two-col-list { grid-template-columns: repeat(2, 1fr); } }
+.two-col-list li { font-size: 0.95rem; color: var(--color-muted); padding-left: 18px; position: relative; }
+.two-col-list li::before { content: "•"; position: absolute; left: 0; color: var(--color-accent); font-weight: 700; }
