@@ -76,19 +76,14 @@ ul {
 }
 
 .nav__logo {
-  display: flex;
-  align-items: center;
+  color: var(--color-white);
+  font-size: 1.2rem;
+  font-weight: 700;
   text-decoration: none;
 }
 
 .nav__logo:hover {
   text-decoration: none;
-}
-
-.nav__logo-img {
-  height: 48px;
-  width: auto;
-  display: block;
 }
 
 .nav__links {
@@ -165,11 +160,19 @@ ul {
 
 /* === Hero === */
 .hero {
-  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-accent) 100%);
-  color: var(--color-white);
+  background: var(--color-white);
+  color: var(--color-dark-text);
   text-align: center;
-  padding: 120px 20px 80px;
+  padding: 80px 20px 80px;
   margin-top: var(--nav-height);
+}
+
+.hero__logo {
+  max-height: 140px;
+  width: auto;
+  max-width: 480px;
+  margin: 0 auto 32px;
+  display: block;
 }
 
 .hero__title {
@@ -181,7 +184,7 @@ ul {
 
 .hero__subtitle {
   font-size: 1.1rem;
-  opacity: 0.9;
+  color: var(--color-muted);
   max-width: 560px;
   margin: 0 auto 32px;
 }
